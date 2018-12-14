@@ -20,3 +20,17 @@ Now run on browser at {docker-ip}:{ip of laptop port given}
  
  AWS ElasticBean Server- http://team5adsflaskapp-env.jm3cmabq7x.us-east-2.elasticbeanstalk.com/
  
+ 
+ ## For running Complete Pipeline on docker--
+
+### Build-
+docker build -t ankit08015/ads-final-pipeline .
+
+### Pull-
+docker pull ankit08015/ads-final-pipeline
+
+
+### Run-
+
+docker run -p ~/desktop/config.ini:/FinalPipeline/config.ini ankit08015/ads-final-pipeline
+ 
