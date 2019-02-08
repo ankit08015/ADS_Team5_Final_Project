@@ -18,7 +18,7 @@ Now run on browser at {docker-ip}:{ip of laptop port given}
   
  ## For accessing the flask app via cloud click on following lin:-
  
- AWS ElasticBean Server- http://team5adsflaskapp-env.jm3cmabq7x.us-east-2.elasticbeanstalk.com/
+ AWS ElasticBean Server- https://team5-ads-flask.herokuapp.com/
  
  
  ## For running Complete Pipeline on docker--
